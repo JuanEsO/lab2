@@ -1,3 +1,11 @@
+# lab2
+
+[![CI/CD Pipeline](https://github.com/JuanEsO/lab2/actions/workflows/build.yml/badge.svg)](https://github.com/JuanEsO/lab2/actions/workflows/build.yml)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=JuanEsO_lab2&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=JuanEsO_lab2)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=JuanEsO_lab2&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=JuanEsO_lab2)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=JuanEsO_lab2&metric=coverage)](https://sonarcloud.io/summary/new_code?id=JuanEsO_lab2)
+[![Technical Debt](https://sonarcloud.io/api/project_badges/measure?project=JuanEsO_lab2&metric=sqale_index)](https://sonarcloud.io/summary/new_code?id=JuanEsO_lab2)
+
 Implementation of a Simple App with the next operations:
 
 
