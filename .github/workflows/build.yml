@@ -269,3 +269,7 @@ jobs:
 
         run: docker push ${{ secrets.AWS_ECR_REGISTRY }}/${{ secrets.AWS_ECR_REPOSITORY }}:$GITHUB_SHA
 
+      - name: Update ECS Service
+        
+        run: |
+          aws ecs update-service --cluster ${{ secrets.AWS_ECS_CLUSTER_NAME }} --service ${{ AWS_ECS_SERVICE_NAME }} --force-new-deployment
